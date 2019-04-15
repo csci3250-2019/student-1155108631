@@ -26,7 +26,7 @@ And this is the solution found [here](https://stackoverflow.com/questions/263394
 
 'git config --global http.proxy http://user:password@host:port'
 
-I can connect to the outside world! CSE settings can be found [here](http://corner.cse.cuhk.edu.hk/tech/proxy.html).
+I can connect to the outside world! CSE proxy settings can be found [here](http://corner.cse.cuhk.edu.hk/tech/proxy.html).
 
 How I solved the problem
 
