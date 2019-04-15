@@ -24,7 +24,7 @@ It requires uses of proxy to connect the outside world!
 
 And this is the solution found [here](https://stackoverflow.com/questions/26339490/how-is-git-push-through-network-working-proxy). With this command:
 
-'git config --global http.proxy http://user:password@host:port'
+`git config --global http.proxy http://user:password@host:port`
 
 I can connect to the outside world! CSE proxy settings can be found [here](http://corner.cse.cuhk.edu.hk/tech/proxy.html).
 
@@ -38,7 +38,7 @@ This is how README.md looks like in vim
 
 Uploading these photos to CSE UNIX in my home requires **sftp** command in cmd:
 
-'sftp user@gw.cse.cuhk.edu.hk'
+`sftp user@gw.cse.cuhk.edu.hk`
 
 Then:
 
@@ -70,8 +70,6 @@ What about you?
 - [ ] JavaScript
 - [ ] HTML
 - [X] These check buttons are just too satisfying to click
-
-Yet, I have done no serious project.
 
 ## sweet reminder
 
