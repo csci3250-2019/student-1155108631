@@ -6,12 +6,50 @@ This whole repo is created solely on command prompt environment (CSE linux serve
 
 It may sounds like a big challenge, but all you need to know is just the commands.
 
-![create local repo](/images/gitcmd.png)
+This is how I create these files and let git know. The **git** commands I used are:
+
+command|feature
+-------|-------
+git init|let git control this directory
+git add|let git know you have the file
+git commit|record changes in the version
+git config|configure your git behaviour
+git remote add origin|to let git know where is your repo online
+git push|update the internet version of your repo
+
+![create local repo](/images/gitcmd1.png)
+
+At the last line you can see, CSE unix is in a intranet. 
+It requires uses of proxy to connect the outside world!
+
+And this is the solution found [here](https://stackoverflow.com/questions/26339490/how-is-git-push-through-network-working-proxy). With this command:
+
+'git config --global http.proxy http://user:password@host:port'
+
+I can connect to the outside world! CSE settings can be found [here](http://corner.cse.cuhk.edu.hk/tech/proxy.html).
+
+How I solved the problem
+
+![upload repo](/images/gitcmd2.png)
+
+This is how README.md looks like in vim 
 
 ![this README.md](/images/READMEcmd.png)
 
-Also, this MarkDown is done with assist of [this website](https://guides.github.com/features/mastering-markdown/)!
-Check that out because that is quite cool.
+Uploading these photos to CSE UNIX in my home requires **sftp** command in cmd:
+
+'sftp user@gw.cse.cuhk.edu.hk'
+
+Then:
+
+command|feature
+-------|-------
+put|put local files online
+get|get online files to local
+
+![sftp photo](/images/sftpcmd.png) 
+
+Also, I never know MarkDown until this momment. Check out [this website](https://guides.github.com/features/mastering-markdown/) to know a lot of MD features!
 
 ## About me
 
@@ -41,7 +79,7 @@ There are some deadlines on this course you may miss!
 
 item|duedate
 ----|--------
-giving ratings to article in course blog|23/4 23:59
+giving ratings to articles in course blog|23/4 23:59
 this project|23/4 23:59
 
 So make sure you have these done!
